@@ -1,0 +1,151 @@
+.container{
+  height: 100%;
+   background-color: #1A1B21;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 10%;
+   margin-right: 10%;
+   border-radius: 10px;
+   box-sizing: border-box;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.profile-img{
+  width: 50%;
+}
+
+
+.info > h2{
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.info > p{
+  margin: 0;
+  color: #F3BF99;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+}
+
+.info > a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 8px;
+}
+
+.buttons{
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+#emailBtn{
+  margin: 5px;
+  width: 115px;
+  height: 34px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#email-logo {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#emailBtn:hover{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+#linkedinBtn {
+  margin: 5px;
+  width: 115px;
+  height: 34px;
+  background-color: #5093E2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#linkedin-logo {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#linkedinBtn:hover{
+  background-color: #1558a4;
+  cursor: pointer;
+}
+
+
+.about, .interest{
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+  color: whitesmoke;
+}
+
+.about > h2, .interest > h2{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.about>p,
+.interest>p{
+  font-size: 10px;
+  margin: 0;
+}
+.interest>p{
+  margin-bottom: 10px;
+}
+
+.footer{
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 0;
+  border-radius: 10px;
+
+}
+
+.social-logo{
+  width: 40px;
+  height: 40px;
+}
+
+#instagram-btn, #github-btn, #facebook-btn{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+
